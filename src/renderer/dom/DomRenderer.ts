@@ -8,7 +8,7 @@ import { ILinkHoverEvent, ITerminal, CharacterJoinerHandler, LinkHoverEventTypes
 import { ITheme } from 'xterm';
 import { EventEmitter } from '../../common/EventEmitter';
 import { ColorManager } from '../ColorManager';
-import { RenderDebouncer } from '../../ui/RenderDebouncer';
+import { RenderDebouncer } from '../../ui/ChromeRenderDebouncer';
 import { BOLD_CLASS, ITALIC_CLASS, CURSOR_CLASS, CURSOR_STYLE_BLOCK_CLASS, CURSOR_STYLE_BAR_CLASS, CURSOR_STYLE_UNDERLINE_CLASS, DomRendererRowFactory } from './DomRendererRowFactory';
 
 const TERMINAL_CLASS_PREFIX = 'xterm-dom-renderer-owner-';
