@@ -1,6 +1,6 @@
 import { ITerminal } from '../Types';
 import { IDisposable } from 'xterm';
-import { ChromeMessage, MessageType } from '../../../src/js/popterm'
+import {ChromeMessage, MessageType} from '../addons/popterm/popterm';
 
 /**
  * Debounces calls to render terminal rows using animation frames.
